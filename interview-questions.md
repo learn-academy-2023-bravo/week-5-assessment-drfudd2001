@@ -39,7 +39,6 @@ In this example, the Player class has a jump method that prints "Player jumps". 
 When mario.jump is called, it will output:
 ```ruby
 Mario jumps higher
-Player jumps
 ```
 As you can see, the jump method from the Player class is called first due to the super call in the Mario class, followed by the additional code in the Mario class's jump method. This allows Mario to inherit the behavior of the parent class's method and extend it with its own modifications.
 
